@@ -1,7 +1,361 @@
 /** CSS STYLE **/
-
-.hello {
-  display: block;
-
-  color: #fff;
+:root {
+  --white-color: #fff;
+  --light-color: #f5f4f0;
+  --light-grey-color: #d7ccc0;
+  --dark-grey-color: #908d8b;
+  --primary-dark-color: #42413c;
+  --dark-color: #2a2626;
+  --brown-color: #b09a81;
+  --primary-orange-color: #fe8a02;
+  --primary-orange-active: #EA7600;
+  --blue-orange-color: #1085c5;
+  --h: {
+    font-family: Neucha, sans-serif;
+    line-height: 1.2em;
+  }
 }
+
+@font-face {
+  font-weight: 400;
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap");
+}
+
+@font-face {
+  font-family: Neucha, sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@300&display=swap");
+}
+
+body {
+  margin: 0;
+}
+
+.section {
+  position: relative;
+  margin: auto;
+  width: 1440px;
+}
+
+.section::before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  inset: 0;
+  opacity: 0.10;
+  background-image: url('../img/background.png');
+}
+
+.section.no-before::before {
+  content: none;
+}
+
+.section-content {
+  display: flex;
+  position: relative;
+  margin: auto;
+  width: 1110px;
+  padding: 100px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header .section-content {
+  align-items: start;
+}
+
+.img-shadow {
+  box-shadow: 0 16px 32px 0 #00000026;
+}
+
+.header-img {
+  position: absolute;
+  height: 525px;
+  width: 1082.81px;
+  top: 55px;
+  right: -270px;
+}
+
+/* ОТСТУПЫ? */
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-183 {
+  margin-top: 183px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+/* ФОНЫ */
+
+.back-brown {
+  background: var(--brown-color);
+}
+
+.back-dark {
+  background: var(--primary-dark-color);
+}
+
+.back-light {
+  background: var(--light-color);
+}
+
+.back-white {
+  background: #fff;
+}
+
+/* ЦВЕТ ШРИФТЫ */
+
+.font-white {
+  color: var(--white-color);
+}
+
+.font-dark {
+  color: var(--dark-color);
+}
+
+.font-orange {
+  color: var(--primary-orange-color);
+}
+
+.font-brown {
+  color: var(--brown-color);
+}
+
+/* ТЕКСТЫ */
+
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.h1 {
+  font-family: Neucha, sans-serif;
+  line-height: 1.2em;
+  font-size: 72px;
+  
+}
+
+.h2 {
+  font-family: Neucha, sans-serif;
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+.h3 {
+  font-family: Neucha, sans-serif;
+  font-size: 34px;
+  line-height: 1.2em;
+}
+
+.subtitle {
+    font-family: Neucha, sans-serif;
+    font-size: 24px;
+}
+
+.subtitle2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+footer .subtitle2 {
+  font-weight: 400;
+}
+
+.input_subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.input_subtitle2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.nav-title {
+  font-family: Neucha, sans-serif;
+  font-size: 52px;
+  line-height: 1.2em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.nav-num {
+  display: block;
+  position: relative;
+  top: 0;
+  padding-bottom: 40px;
+  font-family: Neucha, sans-serif;
+  font-size: 64px;
+  line-height: 1em;
+}
+
+/* ЭЛЕМЕНТЫ */
+
+.section-columns {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 30px;
+}
+
+.section-columns-item {
+  flex: 1px;
+  border: 30px;
+}
+
+.section-subtitle2-line {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 26px;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.section-button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  padding: 12px 24px;  
+  background-color: var(--primary-orange-color);
+  color: var(--white-color);
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--primary-orange-active);
+  }
+}
+
+.section-nav {
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+  flex-wrap: wrap;  
+  justify-content: space-between;
+  gap: 20px;
+
+  & > a {
+    display: flex;
+    text-decoration: none;
+  }
+
+  & > div:first-child {
+    padding: 0;
+    background: transparent;
+  }
+}
+
+.nav-item {
+  box-sizing: border-box;
+  width: 350px;
+  padding: 24px;
+  background: var(--light-color);
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  position: relative;
+  margin: auto;
+  margin-bottom: -200px;
+  z-index: 1;
+}
+
+.input-box {
+  position: relative;
+  display: flex;
+  width: 485px;
+  height: 50px;
+  align-items: center;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.footer-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-button {
+  display: flex;
+  position: absolute;
+  right: 0;
+  width: 65px;
+  height: 50px;
+  background-color: #fe8a02;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-button::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/send.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.floating-label {
+  position: absolute;
+  left: 15px;
+  color: #757575;
+  pointer-events: pointer;
+}
+
+/* Как правильно делать корректировку? */
+
+footer .section-columns {
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  padding: 0 55px;
+}
+
