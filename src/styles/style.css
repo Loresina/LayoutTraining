@@ -11,7 +11,7 @@
   --primary-orange-active: #EA7600;
   --blue-orange-color: #1085c5;
   --h: {
-    font-family: Neucha, sans-serif;
+    font-family: neucha, sans-serif;
     line-height: 1.2em;
   }
 }
@@ -29,8 +29,8 @@
 }
 
 @font-face {
-  font-family: Neucha, sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@300&display=swap");
+  font-family: neucha, sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=neucha&family=Open+Sans:wght@300&display=swap");
 }
 
 body {
@@ -159,27 +159,32 @@ header .section-content {
   line-height: 1.6em;
 }
 
+nav .text {
+  display: block;
+  margin-top: 16px;
+}
+
 .h1 {
-  font-family: Neucha, sans-serif;
+  font-family: neucha, sans-serif;
   line-height: 1.2em;
   font-size: 72px;
   
 }
 
 .h2 {
-  font-family: Neucha, sans-serif;
+  font-family: neucha, sans-serif;
   font-size: 60px;
   line-height: 1.2em;
 }
 
 .h3 {
-  font-family: Neucha, sans-serif;
+  font-family: neucha, sans-serif;
   font-size: 34px;
   line-height: 1.2em;
 }
 
 .subtitle {
-    font-family: Neucha, sans-serif;
+    font-family: neucha, sans-serif;
     font-size: 24px;
 }
 
@@ -194,20 +199,20 @@ footer .subtitle2 {
   font-weight: 400;
 }
 
-.input_subtitle {
+.input-subtitle {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
 
-.input_subtitle2 {
+.input-subtitle2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 12px;
 }
 
 .nav-title {
-  font-family: Neucha, sans-serif;
+  font-family: neucha, sans-serif;
   font-size: 52px;
   line-height: 1.2em;
 }
@@ -221,7 +226,7 @@ footer .subtitle2 {
   position: relative;
   top: 0;
   padding-bottom: 40px;
-  font-family: Neucha, sans-serif;
+  font-family: neucha, sans-serif;
   font-size: 64px;
   line-height: 1em;
 }
@@ -291,6 +296,11 @@ footer .subtitle2 {
   width: 350px;
   padding: 24px;
   background: var(--light-color);
+
+  &:hover {
+  background: var(--primary-orange-active);
+  }
+
 }
 
 .video {
