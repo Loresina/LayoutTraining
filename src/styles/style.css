@@ -73,7 +73,7 @@ header .section-content {
 }
 
 .img-shadow {
-  box-shadow: 0 16px 32px 0 #00000026;
+  box-shadow: 0 16px 32px rgba(0 0 0 / 15%);
 }
 
 .header-img {
