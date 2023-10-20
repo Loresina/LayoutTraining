@@ -229,6 +229,7 @@ footer .subtitle2 {
   font-family: neucha, sans-serif;
   font-size: 64px;
   line-height: 1em;
+  color: var(--primary-dark-color);
 }
 
 .section-columns {
@@ -286,6 +287,7 @@ footer .subtitle2 {
     padding: 0;
     background: transparent;
   }
+  
 }
 
 .nav-item {
@@ -295,7 +297,7 @@ footer .subtitle2 {
   background: var(--light-color);
 
   &:hover {
-  background: var(--primary-orange-active);
+  background: var(--primary-orange-color);
 
   & .nav-num {
     color: var(--white-color);
