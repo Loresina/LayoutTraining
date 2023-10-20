@@ -74,6 +74,7 @@ header .section-content {
 
 .img-shadow {
   box-shadow: 0 16px 32px rgba(0 0 0 / 15%);
+  vertical-align: middle;
 }
 
 .header-img {
@@ -273,7 +274,7 @@ footer .subtitle2 {
 .section-nav {
   display: flex;
   position: relative;
-  margin-top: 104px;
+  margin-top: 102px;
   flex-wrap: wrap;  
   justify-content: space-between;
   gap: 20px;
@@ -316,7 +317,7 @@ footer .subtitle2 {
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: relative;
-  margin-bottom: -200px;
+  margin-bottom: -202px;
   z-index: 1;
 }
 
@@ -349,7 +350,7 @@ footer .subtitle2 {
   border: none;
   cursor: pointer;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .footer-button::before {
