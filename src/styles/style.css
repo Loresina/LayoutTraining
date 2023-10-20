@@ -84,8 +84,6 @@ header .section-content {
   right: -270px;
 }
 
-/* ОТСТУПЫ? */
-
 .mt-25 {
   margin-top: 25px;
 }
@@ -114,8 +112,6 @@ header .section-content {
   margin-bottom: 100px;
 }
 
-/* ФОНЫ */
-
 .back-brown { 
   background: var(--brown-color);
 }
@@ -132,8 +128,6 @@ header .section-content {
   background: #fff;
 }
 
-/* ЦВЕТ ШРИФТЫ */
-
 .font-white {
   color: var(--white-color);
 }
@@ -149,8 +143,6 @@ header .section-content {
 .font-brown {
   color: var(--brown-color);
 }
-
-/* ТЕКСТЫ */
 
 .text {
   font-family: "Open Sans", sans-serif;
@@ -239,8 +231,6 @@ footer .subtitle2 {
   line-height: 1em;
 }
 
-/* ЭЛЕМЕНТЫ */
-
 .section-columns {
   position: relative;
   width: 100%;
@@ -282,7 +272,7 @@ footer .subtitle2 {
 .section-nav {
   display: flex;
   position: relative;
-  margin-top: 100px;
+  margin-top: 110px;
   flex-wrap: wrap;  
   justify-content: space-between;
   gap: 20px;
@@ -322,9 +312,8 @@ footer .subtitle2 {
 }
 
 .video {
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 30%));
   position: relative;
-  margin: auto;
   margin-bottom: -200px;
   z-index: 1;
 }
