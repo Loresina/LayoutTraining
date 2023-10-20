@@ -314,7 +314,7 @@ footer .subtitle2 {
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 30%));
   position: relative;
-  margin-bottom: -200px;
+  margin-bottom: -190px;
   z-index: 1;
 }
 
