@@ -273,7 +273,7 @@ footer .subtitle2 {
 .section-nav {
   display: flex;
   position: relative;
-  margin-top: 102px;
+  margin-top: 104px;
   flex-wrap: wrap;  
   justify-content: space-between;
   gap: 20px;
