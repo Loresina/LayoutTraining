@@ -104,8 +104,8 @@ header .section-content {
   margin-top: 60px;
 }
 
-.mt-183 {
-  margin-top: 183px;
+.mt-185 {
+  margin-top: 185px;
 }
 
 .mb-100 {
@@ -314,7 +314,7 @@ footer .subtitle2 {
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: relative;
-  margin-bottom: -192px;
+  margin-bottom: -200px;
   z-index: 1;
 }
 
