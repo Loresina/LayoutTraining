@@ -86,8 +86,8 @@ header .section-content {
 
 /* ОТСТУПЫ? */
 
-.mt-20 {
-  margin-top: 20px;
+.mt-25 {
+  margin-top: 25px;
 }
 
 .mb-20 {
@@ -116,7 +116,7 @@ header .section-content {
 
 /* ФОНЫ */
 
-.back-brown {
+.back-brown { 
   background: var(--brown-color);
 }
 
@@ -178,6 +178,7 @@ nav .text {
 }
 
 h2 {
+  display: inline;
   font-family: neucha, sans-serif;
   font-size: 60px;
   line-height: 1.2em;
@@ -250,7 +251,6 @@ footer .subtitle2 {
 
 .section-columns-item {
   flex: 1px;
-  border: 30px;
 }
 
 .section-subtitle2-line {
@@ -378,12 +378,10 @@ footer .subtitle2 {
   pointer-events: pointer;
 }
 
-/* Как правильно делать корректировку? */
-
 footer .section-columns {
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   height: 190px;
   padding: 0 55px;
 }
-
