@@ -242,7 +242,7 @@ footer .subtitle2 {
   position: relative;
   width: 100%;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -263,7 +263,7 @@ footer .subtitle2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   display: inline-block;
-  padding: 12px 24px;  
+  padding: 12px 24px;
   background-color: var(--primary-orange-color);
   color: var(--white-color);
   text-decoration: none;
@@ -280,7 +280,7 @@ footer .subtitle2 {
   display: flex;
   position: relative;
   margin-top: 102px;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
 
@@ -293,7 +293,6 @@ footer .subtitle2 {
     padding: 0;
     background: transparent;
   }
-  
 }
 
 .nav-item {
@@ -316,7 +315,7 @@ footer .subtitle2 {
   & .text {
     color: var(--white-color);
   }
-  }
+}
 }
 
 .video {
