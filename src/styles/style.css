@@ -8,12 +8,14 @@
   --dark-color: #2a2626;
   --brown-color: #b09a81;
   --primary-orange-color: #fe8a02;
-  --primary-orange-active: #EA7600;
+  --primary-orange-active: #ea7600;
   --blue-orange-color: #1085c5;
-  --h: {
-    font-family: neucha, sans-serif;
+  --h:
+  {
+    font-family: neucha,
+    sans-serif;
     line-height: 1.2em;
-  }
+  };
 }
 
 @font-face {
@@ -49,8 +51,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   inset: 0;
-  opacity: 0.10;
-  background-image: url('../img/background.png');
+  opacity: 0.1;
+  background-image: url("../img/background.png");
 }
 
 .section.no-before::before {
@@ -351,7 +353,7 @@ footer .subtitle2 {
   border: none;
   cursor: pointer;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .footer-button::before {
