@@ -10,12 +10,6 @@
   --primary-orange-color: #fe8a02;
   --primary-orange-active: #ea7600;
   --blue-orange-color: #1085c5;
-  --h:
-  {
-    font-family: neucha,
-    sans-serif;
-    line-height: 1.2em;
-  };
 }
 
 @font-face {
@@ -187,8 +181,8 @@ h2 {
 }
 
 .subtitle {
-    font-family: neucha, sans-serif;
-    font-size: 24px;
+  font-family: neucha, sans-serif;
+  font-size: 24px;
 }
 
 .subtitle2 {
