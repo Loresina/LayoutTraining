@@ -164,9 +164,6 @@ nav .text {
   font-family: neucha, sans-serif;
   line-height: 1.2em;
   font-size: 72px;
-  font-size: 72px;
-  font-size: 72px;  
-  
 }
 
 .h2 {
@@ -304,18 +301,12 @@ footer .subtitle2 {
   &:hover {
     background: var(--primary-orange-color);
 
-  & .nav-num {
-    color: var(--white-color);
+    .nav-num,
+    .h3,
+    .text {
+      color: var(--white-color);
+    }
   }
-
-  & .h3 {
-    color: var(--white-color);
-  }
-
-  & .text {
-    color: var(--white-color);
-  }
-}
 }
 
 .video {
