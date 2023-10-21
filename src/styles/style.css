@@ -116,7 +116,7 @@ header .section-content {
   margin-bottom: 100px;
 }
 
-.back-brown { 
+.back-brown {
   background: var(--brown-color);
 }
 
@@ -164,6 +164,8 @@ nav .text {
   font-family: neucha, sans-serif;
   line-height: 1.2em;
   font-size: 72px;
+  font-size: 72px;
+  font-size: 72px;  
   
 }
 
@@ -178,7 +180,7 @@ h2 {
   font-family: neucha, sans-serif;
   font-size: 60px;
   line-height: 1.2em;
-  color: var(--primary-orange-color)
+  color: var(--primary-orange-color);
 }
 
 .h3 {
@@ -301,7 +303,7 @@ footer .subtitle2 {
   background: var(--light-color);
 
   &:hover {
-  background: var(--primary-orange-color);
+    background: var(--primary-orange-color);
 
   & .nav-num {
     color: var(--white-color);
@@ -357,11 +359,11 @@ footer .subtitle2 {
 }
 
 .footer-button::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 24px;
   height: 24px;
-  background-image: url('../img/send.svg');
+  background-image: url("../img/send.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
