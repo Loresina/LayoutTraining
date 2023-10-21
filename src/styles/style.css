@@ -70,6 +70,7 @@ body {
 
 header .section-content {
   align-items: start;
+  overflow: hidden;
 }
 
 .img-shadow {
@@ -126,7 +127,7 @@ header .section-content {
 }
 
 .back-white {
-  background: #fff;
+  background: var(--white-color);
 }
 
 .font-white {
