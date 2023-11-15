@@ -3,7 +3,7 @@
 
 ### You can see it
 
-<code>Follow the link [Rss Reader](https://frontend-bootcamp-project-11-vf7e.vercel.app/)
+<code>Follow the link [Layout_training](https://frontend-bootcamp-project-11-vf7e.vercel.app/)
 </code>
 
 
